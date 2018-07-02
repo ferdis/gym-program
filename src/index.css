@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.exercise {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.exercise .name {
+  flex-grow: 1;
+}
+
+.exercise .picture {
+  width: 200px;
+}
+
+.exercise img {
+  max-width: 200px;
+}
