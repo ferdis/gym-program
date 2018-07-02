@@ -7,5 +7,5 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import 'semantic-ui-css/semantic.min.css';
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
+ReactDOM.render(<Router basename="/gym/"><App /></Router>, document.getElementById('root'));
 registerServiceWorker();
